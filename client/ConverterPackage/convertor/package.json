@@ -1,0 +1,18 @@
+{
+  "name": "convertor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lexical/headless": "^0.23.1",
+    "@lexical/html": "^0.23.1",
+    "jsdom": "^26.0.0",
+    "lexical": "^0.23.1"
+  },
+  "description": ""
+}

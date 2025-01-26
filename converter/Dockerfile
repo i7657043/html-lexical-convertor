@@ -9,6 +9,8 @@ RUN yarn
 
 COPY . .
 
+ENV NODE_ENV=development
+
 RUN yarn build
 
 EXPOSE 3000

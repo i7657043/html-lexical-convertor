@@ -1,4 +1,3 @@
-# Use an official Node.js runtime as the base image
 FROM node:18-alpine
 
 WORKDIR /app
@@ -9,7 +8,7 @@ RUN yarn
 
 COPY . .
 
-ENV NODE_ENV=development
+ENV NODE_ENV=production
 
 RUN yarn build
 
